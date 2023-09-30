@@ -6,7 +6,7 @@ Body{
     color: #444;
     font-weight: 400;
 }
-
+/* "name" */
 h1 {
     font-size 3.5em;
     text-transform: uppsercase;
@@ -14,7 +14,7 @@ h1 {
     text-align: center;
 }
 
-
+/* "current job title" */
 strong {
     color: #33485e;
     text-transform: uppercase;
@@ -22,6 +22,7 @@ strong {
     font-size: 1.3em;
 }
 
+/* "section titles" */
 h2 {
     font-size: 1.5em;
     text-transform: uppercase;
@@ -30,19 +31,19 @@ h2 {
     font-weight: 400;
 }
 
-
+/* "job titles" */
 h3{
     font-weight: 600;
     font-size: 2em;
 }
 
-
+/* "job organizations" */
 h4{
     font-weight: 400;
     font-size: 1.5em;
 }
 
-
+/* "job dates" */
 h5{
     font-weight: 400;
     font-size: 1em;
