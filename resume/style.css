@@ -1,5 +1,12 @@
 /* "styles for my resume" */
 
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 Body{
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 1em;
@@ -27,12 +34,18 @@ strong {
 }
 
 /* "section titles" */
-h2 {
+.sectionheader{
     font-size: 1.5em;
     text-transform: uppercase;
     background-color: #33485e;
     color: white;
     font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 70%;
+    min-width: 300px;
 }
 
 /* "job titles" */
