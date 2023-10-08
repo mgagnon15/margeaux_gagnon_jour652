@@ -1,10 +1,10 @@
 /* "styles for my resume" */
 
 #container {
-    width: 100%;
+    width:100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -85,10 +85,11 @@ Body{
 
 /* "contact info" */
 .menu{
-    margin: 0px;
+    display:inline;
+    margin: 0 auto;
     padding: 0px;
-    display: inline;
-    text-align: center;
+    list-style-type: none;
+    text-align: center !important;
 }
 
 /* "degrees" */
@@ -124,3 +125,4 @@ Body{
     margin:0 auto;
     margin-bottom: 30px;
 }
+
