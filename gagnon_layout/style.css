@@ -12,6 +12,7 @@
 h1 {
     font-family: Helvetica, sans-serif;
     font-size: 30px;
+    text-align: center;
 }
 
 p {
@@ -19,6 +20,9 @@ p {
     font-size: 13px;
 }
 
-img {
-    size: 3em;
-}
+ h3 {
+    font-family: Georgia, serif;
+    font-size: 10px;
+    color: grey;
+
+ }
