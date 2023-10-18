@@ -1,6 +1,7 @@
 #content {
     margin: 0 auto;
     width: 900px;
+    padding-bottom: 10px;
 }
 
 #byline {
@@ -85,7 +86,12 @@ blockquote{
 
 }
 
-.graphic{
-    font-size: 13px;
+#graphic{
+    font-size: 18px;
     font-style: italic;
+    border-left: 4px solid #ccc;
+    border-bottom: 4px solid #ccc;
+    border-top: 4px solid #ccc;
+    border-right: 4px solid #ccc;
+    text-align: center;
 }
