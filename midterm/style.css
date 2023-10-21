@@ -1,0 +1,28 @@
+h1 {
+    font-family: Georgia, serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-family: helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    }
+
+#content {
+    margin: 0 auto;
+    width: 900px;
+    padding-bottom: 10px;
+}
+    
