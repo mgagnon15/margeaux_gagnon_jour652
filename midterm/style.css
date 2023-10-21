@@ -26,3 +26,34 @@ h2 {
     padding-bottom: 10px;
 }
     
+.masthead{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+  }
+
+  figure {
+    margin: auto;
+    margin-bottom: 3%;
+  }
+  
+  figcaption {
+    font-style: italic;
+    padding: 5px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 45%;
+    font-size: 10px;
+    color: grey;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
