@@ -33,6 +33,7 @@ h2 {
     width: 99%;
   }
 
+/* Image Styling */
   figure {
     margin: auto;
     margin-bottom: 3%;
@@ -48,6 +49,7 @@ h2 {
     color: grey;
 }
 
+/* read more list styling */
 h3 {
     font-family: Helvetica, sans-serif;
     font-size: 20px;
@@ -57,3 +59,33 @@ ul {
     font-family: Helvetica, sans-serif;
     font-size: 12px;
 }
+
+#graphic{
+    font-size: 18px;
+    font-style: italic;
+    border-left: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    border-top: 4px solid #000000;
+    border-right: 4px solid #000000;
+    text-align: center;
+}
+
+blockquote{
+    font-size: 25px;
+    font-family: "normal helvetica", sans-serif;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: darkblue;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 4px solid #ccc;
+    float: left;
+
+}
+
+.left{
+    float: left;
+    margin-right: 2%;
+
+  }
