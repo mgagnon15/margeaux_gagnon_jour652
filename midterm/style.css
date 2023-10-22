@@ -37,6 +37,7 @@ h2 {
   figure {
     margin: auto;
     margin-bottom: 3%;
+    
   }
   
   figcaption {
@@ -68,6 +69,8 @@ ul {
     border-top: 4px solid #000000;
     border-right: 4px solid #000000;
     text-align: center;
+    padding: 2%;
+    margin: 2%, auto;
 }
 
 blockquote{
@@ -87,5 +90,20 @@ blockquote{
 .left{
     float: left;
     margin-right: 2%;
+    margin-top: 2%;
+  }
 
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 2%;
+  }
+
+
+  #center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
