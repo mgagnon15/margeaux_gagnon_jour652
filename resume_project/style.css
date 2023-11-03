@@ -1,0 +1,78 @@
+.masthead{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+  }
+
+  /* "current job title" */
+#title {
+    color: #33485e;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3em;
+    text-align: center;
+    
+}
+
+/* "section titles" */
+.sectionheader{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 70%;
+    min-width: 300px;
+    text-align: center;
+}
+
+/* "job titles" */
+.jobtitle{
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* "job organizations" */
+.organization{
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* "job dates" */
+.date{
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+
+/* "job descriptions" */
+.description{
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+/* "degrees" */
+#degrees{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
