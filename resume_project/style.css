@@ -17,7 +17,7 @@
 
 /* "section titles" */
 .sectionheader{
-    font-size: 1.5em;
+    font-size: 3em;
     text-transform: uppercase;
     background-color: #000000;
     color: white;
@@ -26,7 +26,7 @@
     margin-bottom: 20px;
     margin-left: 0px;
     margin-right: 0px;
-    width: 70%;
+    width: 100%;
     min-width: 300px;
     text-align: center;
 }
@@ -74,5 +74,24 @@
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    text-align: center;
+}
+
+#experience{
+    padding-bottom: 10%;
+}
+
+#education{
+    padding-bottom: 10%;
+}
+
+#contact{
+    padding-bottom: 10%;
+}
+
+.bi {
+    font-size:3em;
+}
+.col-md-3 {
     text-align: center;
 }
