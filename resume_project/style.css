@@ -86,7 +86,7 @@
 }
 
 #contact{
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .bi {
@@ -99,3 +99,14 @@
 .nav-item {
     text-align: center;
 }
+
+footer {
+    display: block;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
