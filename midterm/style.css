@@ -16,8 +16,9 @@ h2 {
 
 #byline {
     font-family: Helvetica, sans-serif;
-    font-size: 14px;
-    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+    
     }
 
 #content {
