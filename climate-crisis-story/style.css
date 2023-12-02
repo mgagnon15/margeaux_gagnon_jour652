@@ -1,0 +1,53 @@
+h1 {
+    font-family: Georgia, serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    }
+
+#content {
+    margin: 0 auto;
+    width: 900px;
+    padding-bottom: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.col-md-4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+footer {
+    display: block;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
