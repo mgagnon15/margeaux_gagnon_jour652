@@ -219,5 +219,10 @@ footer {
     .pullquote{
         font-size: 1.25em;
     }
-
+    .image{
+        width: 50%;
+    }
+    .hero-image{
+        width: fit-content;
+    }
 }
