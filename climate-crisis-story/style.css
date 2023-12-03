@@ -210,7 +210,7 @@ footer {
     .chapter-head{
         font-size: 1.25em;
     }
-    .hed {
+    h1{
         font-size: 2em;
     }
     .hero-head{
@@ -221,6 +221,3 @@ footer {
     }
 
 }
-
-font-family: 'Fredericka the Great', serif;
-font-family: 'Oswald', sans-serif;
