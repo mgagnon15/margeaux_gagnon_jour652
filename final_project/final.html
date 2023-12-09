@@ -16,64 +16,38 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
         <!-- external stylesheet -->
         <link rel="stylesheet" type="text/css" href="style.css">
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bowlby+One&display=swap" rel="stylesheet">
     </head>
 
 
 
     <body>
-        <!-- Navbar start-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-           <a class="navbar-brand" href="#">Navbar</a>
-           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-           </button>
-           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                 </li>
-                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <li><a class="dropdown-item" href="#">Action</a></li>
-                       <li><a class="dropdown-item" href="#">Another action</a></li>
-                       <li>
-                          <hr class="dropdown-divider">
-                       </li>
-                       <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                 </li>
-              </ul>
-              <form class="d-flex">
-                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                 <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-           </div>
-        </div>
+         <!-- tophat start-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <span class="nav-logo"> <span class= "blue">Inside the mind:</span> Cliff Daniels</span>
      </nav>
+
+     <!-- tophat end-->
 
         <!-- Navbar end-->
 
         <!--start hero container-->
         <div class="hero-container">
             <img src="images/daniels 1.jpeg" class="hero-image">
+            <div class="overlay">
+                <div class="hero-head">Cliff Daniels</div>
+                <div class="hero-subhead"> Inside the mind behind Kyle Larson’s championship hopes</div>
+             </div>
         </div>
 
         <!--end hero container-->
 
-        <div id="content">
-            <h1>Cliff Daniels and the Cheerio in the corner: Inside the mind behind Kyle Larson’s hopes</h1>
+        <div class="content">
 
-            <div id="byline">
+            <div class="byline">
                 By: Jordan Bianchi
             </div>
 
@@ -85,11 +59,33 @@
 
             <p>This will surprise no one who knows the crew chief for Kyle Larson’s No. 5 Hendrick Motorsports team. Ask around the garage about Daniels’ defining characteristics and the responses are near universal: He’s detail-oriented, an exceptional leader and has an unmistakable white-hot intensity. Such attributes are the catalyst behind Larson vying for his second NASCAR Cup Series championship in three years Sunday at Phoenix Raceway.</p>
 
+                <!--image 1 start-->
+                <div>
+                    <img src="images/daniels_2.jpeg" class="image">
+                    <p class="caption">Crew chief Cliff Daniels and Kyle Larson celebrate after winning the NASCAR Cup Series Championship at Phoenix Raceway in 2021 (Photo by Chris Graythen/Getty Images)</p>
+                </div>
+                <!--image 1 end-->
+
             <p>“Cliff takes the role seriously, embraces it, has the world’s most talented driver, bar none, and leads him,” said Chris Gabehart, crew chief for Denny Hamlin’s No. 11 Joe Gibbs Racing team. “He’s not afraid of it, he embraces it, outwardly and all the pressure and responsibility that comes with it. I think he does a great job. He’s earned the spotlight he’s in.”</p>
 
             <p>Exceptional crew chiefs, the kind whose teams are perennially in championship contention, generally have a keen understanding of the mechanical and engineering elements that go into building fast race cars. These abilities are an absolute must. In a sport where the mechanical margins to find speed keep shrinking, it’s imperative that those leading teams find other avenues to propel their teams to victory lane.</p>
 
             <p>“He strives tirelessly to find performance,” said Chad Knaus, Hendrick vice president of competition. “And that comes in many, many different packages. He does that through simulation, he does it through data, he does it through the human performance element. He’s a very, very good communicator. He’s not afraid to talk and approach and find resolve in a situation. And he’s tireless, like he works all the time. He’s very, very dedicated to his craft.”</p>
+
+                <!-- double photo start -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/daniels_7.jpeg" class="image">
+                                <p class="caption">Kyle Larsonand crew chief Cliff Daniels celebrate victory lane after winning the NOCO 400 at Martinsville Speedway on April 16, 2023 in Martinsville, Virginia. (Photo by Sean Gardner/Getty Images) </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/daniels_4.jpeg" class="image">
+                                <p class="caption">Cliff Daniels on top of the pit box for his #5 Hendrick Motorsports team. (source: hendrickmotorsports.com)</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- double photo end-->
 
             <p> It’s easy to dismiss the role a crew chief plays when you’re with an organization the caliber of Hendrick, which has won more championships than any other, and also happen to be aligned with a generational talent in Larson, whose ability frequently draws comparisons to NASCAR multi-time champions Jeff Gordon and Tony Stewart.</p>
 
@@ -117,6 +113,12 @@
 
             <p>Holding people accountable is not an issue with Daniels. The crew chief has no qualms demanding Larson work on improving his craft, something Larson appreciates even if the way Daniels delivers the message can sometimes come across in a brusque manner.</p>
 
+                <!--pullquote 2 start-->
+                <div class="pullquote">“He pushes me to continue to get better and get closer to perfect.”
+                    <div class="attribution">- Kyle Larson driver of the No. 5 team</div>
+                    </div>
+                <!---pullquote 2 end-->
+
             <p>When informed that Daniels would be his crew chief, Larson wasn’t sure how Daniels would handle him. Before long, though, Larson realized that Daniels was exactly what he needed if he was to fulfill his potential.</p>
 
             <p>“He’s somebody for me that I didn’t think that I would ever do good with because in the past, I haven’t felt like I would like the intensity that he brings,” Larson said. “But now I’m super thankful that I have him leading me because I think the way he is in the way he pushes me to continue to get better and get closer to perfect is always good for me and all that accountability is great for me.”</p>
@@ -141,7 +143,9 @@
             <p>Watching it all unfold was Daniels, who had every reason to lambaste his team, but chose not to. Instead, he calmly told the team they had positioned themselves to make an extraordinary comeback that would showcase their resolve.</p>
 
                 <!--embed tweet start-->
-                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;We&#39;ve 𝙇𝙄𝙏𝙀𝙍𝘼𝙇𝙇𝙔 caught on fire.&quot; <a href="https://twitter.com/DanielsCliff?ref_src=twsrc%5Etfw">@DanielsCliff</a> out here pumping his driver and crew up! 🔊 <a href="https://t.co/DcBHV1AGh5">pic.twitter.com/DcBHV1AGh5</a></p>&mdash; NASCAR (@NASCAR) <a href="https://twitter.com/NASCAR/status/1531084054753206272?ref_src=twsrc%5Etfw">May 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+               <div class="tweet">
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;We&#39;ve 𝙇𝙄𝙏𝙀𝙍𝘼𝙇𝙇𝙔 caught on fire.&quot; <a href="https://twitter.com/DanielsCliff?ref_src=twsrc%5Etfw">@DanielsCliff</a> out here pumping his driver and crew up! 🔊 <a href="https://t.co/DcBHV1AGh5">pic.twitter.com/DcBHV1AGh5</a></p>&mdash; NASCAR (@NASCAR) <a href="https://twitter.com/NASCAR/status/1531084054753206272?ref_src=twsrc%5Etfw">May 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
                 <!--embed tweet end-->
 
             <p>“In the first half, all I want you to remember is how good TV we made,” Daniels told Larson over the radio. “We went from the back to the front more times than I can count. We hit the wall, we spun out, we literally caught on fire. We were also the most penalized team on pit road in the first half. All that means is that in the second half, already we’re going to be starting way better than what we started the first half. We’ve got to go execute right now, so I don’t know what the hell you’re worried about, but I’m fine, the team’s fine. Everybody down here is nodding their heads and giving a thumbs-up, so let’s go.”</p>
@@ -152,6 +156,12 @@
 
             <p>Daniels understands that his approach may not be for everyone. It takes a particular type of individual to be able to hold up to the demands placed on them by Daniels and his heightened intensity. Winning races and contending for races is not just a goal, it’s the expectation.</p>
 
+                <!--pullquote 2 start-->
+                <div class="pullquote">“I think where Cliff does a good job is that he is very intense, but he’s also vulnerable and he shows both sides.”
+                    <div class="attribution">- Jesse Saunders, car chief for the No. 5 team</div>
+                    </div>
+                <!---pullquote 2 end-->
+
             <p>He acknowledges that he worries about pushing his driver and team too hard, to where they eventually tune him out. He wouldn’t be the first crew chief whose team grew tired of their leader.</p>
 
             <p>“I know that because of the driver we have and the team that we have, I have to stay focused in the moment and continue to push, and that can be exhausting at times,” Daniels said. “And I know that down the road, there will come a time where things will change, and my approach will have to change. But for now, my mindset is to continue to evolve, and us being on an upward trajectory for our team, I believe that it’s going to be on how I lead us through that. The downside to that is the possibility of burnout.”</p>
@@ -159,6 +169,13 @@
             <p>To help combat both these potential issues, Daniels makes it a point to be more relaxed behind the scenes while at the Hendrick shop during the week. Away from the racetrack, Daniels encourages his team to rib him and make jokes at his expense and is also emphatic that team members take days off when needed.</p>
 
             <p>“I think where Cliff does a good job is that he is very intense, but he’s also vulnerable and he shows both sides,” Saunders said. “And it’s hard, right, because when you want to be a leader, sometimes the misnomer is that the leader has to be here and there has to be this invisible wall and then everybody else. Well, he’s normalized the, OK, when we need to work and we need to be in the moment, we all lock in and we’re in the moment. And when we have the time to kind of let our guard down and relax in the van on the way to the track, things like that, we can be human, we can be genuine, we can have that balance. A lot of people don’t see that, they just see Cliff at the track.”</p>
+
+                <!--image 3 start-->
+                <div>
+                    <img src="images/daniels_5.jpeg" class="image">
+                    <p class="caption">Kyle Larson and crew chief Cliff Daniels talk on the grid during qualifying for the NASCAR Cup Series Championship. (Photo by Chris Graythen/Getty Images)</p>
+                </div>
+                <!--image 3 end-->
 
             <p>Daniels has been a crew chief for four full seasons, plus a little more than half of another. On Sunday, Larson enters the Championship 4 as the driver many have tabbed as the title favorite.</p>
 
