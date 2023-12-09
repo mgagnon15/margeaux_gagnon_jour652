@@ -6,7 +6,7 @@ h1 {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 1em;
 }
 
 h2 {
@@ -48,3 +48,37 @@ footer {
     margin-right: 0px;
     text-align: center;
   }
+
+  /*splash image*/
+.hero-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    top:30%;
+    background: black;
+    opacity: 70%;
+}
+
+.hero-head{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    font-size: 6em;
+    color: white;
+    font-family: 'Fredericka the Great', serif;
+
+}
+
+.hero-subhead{
+    font-family: 'Oswald', sans-serif;
+}
